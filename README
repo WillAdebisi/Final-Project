@@ -1,45 +1,34 @@
-Wasteland Runners 🚗🧟‍♂️
-An endless, level-based, zombie survival game where you explore the wasteland using high-tech vehicles!
+# 🚗 Wasteland Runners
 
-🎮 How to Play
-Start the game:
+A level-based, endless zombie survival game built in modern C++!
 
-Choose New Game or Load Game.
+---
 
-If New Game, select a starter vehicle:
+## 🎮 How to Play
 
-SpaceX Rocket Buggy – fastest but fragile
+- Choose your starter vehicle:
+  - SpaceX Rocket Buggy — Speedster with bonus coins
+  - NASA Heavy Rover — Balanced durability and fuel
+  - Blue Origin Hauler — Efficient fuel usage
+  - Roscosmos Titan — Tanky self-healing machine
 
-NASA Heavy Rover – balanced durability and speed
+- Survive each level:
+  - Dodge obstacles like zombie attacks, meteors, and walls
+  - Earn coins and upgrade your vehicles
+  - Manage your fuel wisely — or face destruction!
 
-Blue Origin Hauler – better fuel efficiency
+- After every level:
+  - Repair, refuel, buy new vehicles, or keep exploring.
+  - Save and exit anytime after a run.
 
-Roscosmos Titan – tanky with self-healing abilities
+- Game ends if all your vehicles are destroyed.
 
-Survive each level:
+---
 
-Encounter random events (zombie attacks, meteor showers, supply crates, etc.)
+## 🛠 How to Compile and Run
 
-Earn coins after surviving obstacles.
-
-Vehicles consume fuel after each level — refuel or risk destruction!
-
-Upgrade and Expand:
-
-Visit Post-Level Stations to:
-
-Repair your vehicle.
-
-Refuel at gas stations.
-
-Buy new vehicles for your garage.
-
-Save or Continue:
-
-After every level, you have the option to Continue or Save and Exit.
-
-You can save your progress at any time and resume later.
-
-Game Over:
-
-The game ends if all your vehicles are destroyed or if you choose to exit.
+1. Make sure you have `g++` installed (supports C++17).
+2. Clone the repository.
+3. Compile the project:
+   ```bash
+   make
